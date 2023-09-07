@@ -11,7 +11,7 @@ sidebar_position: 5
 
 # Repository Info
 
-{: .note}
+## NOTE
 Make sure to replace `VERSION` with the latest version. Shown on the image below
 ![Latest version](https://repo.epicebic.xyz/api/badge/latest/public/me/epic/chatgames?color=40c14a&name=SimpleChatGames)  
 If you come across any issues or need help with anything, come to my [Discord](https://discord.com/invite/bpG46SDstM) or DM me directly `@epicebic`
@@ -19,23 +19,23 @@ If you come across any issues or need help with anything, come to my [Discord](h
 ## Maven
 ```xml
 <repository>
-<name>Epic's Maven Repository</name>
-<url>https://repo.epicebic.xyz/public</url>
+  <name>Epic's Maven Repository</name>
+  <url>https://repo.epicebic.xyz/public</url>
 </repository>
 ```
 
 ```xml
 <dependency>
-<groupId>me.epic</groupId>
-<artifactId>chatgames</artifactId>
-<version>VERSION</version>
+  <groupId>me.epic</groupId>
+  <artifactId>chatgames</artifactId>
+  <version>VERSION</version>
 </dependency>
 ```
 
 ## Gradle (Groovy)
 ```groovy
 maven {
-    url = "https://repo.epicebic.xyz"
+    url = "https://repo.epicebic.xyz/public"
 }
 ```
 
@@ -47,8 +47,8 @@ compileOnly('me.epic:chatgames:VERSION')
 
 ## plugin.yml setup
 
-In order for your plugin to load correctly and add content to SimpleChatGames, it must be loaded after SimpleChatGames in your `plugin.yml` file. \
-If your plugin requires SimpleChatGames to work add `depend: [SimpleChatGames]` \
+In order for your plugin to load correctly and add content to SimpleChatGames, it must be loaded after SimpleChatGames in your `plugin.yml` file.
+If your plugin requires SimpleChatGames to work add `depend: [SimpleChatGames]`
 If it can function without it use `soft-depend: [SimpleChatGames]`
 ## Creating your game config
 
@@ -63,7 +63,6 @@ duration: 30 # This is in seconds
 
 ## Setting up your main class
 New format (v2.0.0)
-{: .label .label-green }
 
 ```java
 import me.epic.chatgames.SimpleChatGames;
@@ -98,7 +97,6 @@ public class MyPlugin extends JavaPlugin {
 
 ## Creating the Game Data
 New format (v2.0.0)
-{: .label .label-green }
 
 ```java
 import me.epic.chatgames.games.ChatGame;
@@ -121,7 +119,6 @@ public class CoolGameData extends GameData {
 
 ## Creating the Game Class
 New format (v2.0.0)
-{: .label .label-green }
 
 ```java
 import me.epic.chatgames.games.ChatGame;

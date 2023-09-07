@@ -13,8 +13,9 @@ sidebar_position: 2
 
 The reward sub-command (`/cg reward`) allows you to configure various types of rewards for your players. After executing any of the following commands, kindly remember to [reload](#reload) the plugin to apply the changes.
 
-{: .note}
+:::info
 Should any of the following commands tell you that the item was added but the reward is disabled, follow the next guide
+:::
 
 ### Setting Item Rewards
 

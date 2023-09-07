@@ -32,5 +32,6 @@ You can configure multiple command rewards. For example, if you want to run the 
 
 To add a currency reward, run the command `/cg reward set economy <value>`, replacing `<value>` with the desired amount.
 
-{: .note}
+:::info
 Once you have followed any of the instructions above, run the command `/cg reload` to load the rewards and start using SimpleChatGames.
+:::

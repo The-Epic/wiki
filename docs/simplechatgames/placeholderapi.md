@@ -5,9 +5,9 @@ sidebar_position: 4
 # PlaceholderAPI
 This plugin can integrate with PlaceholderAPI to expose certain values for you to use
 
-{: .important}
-**NO PAPI eCloud download is necessary - Placeholders come with the plugin**
-
+:::info
+NO PAPI eCloud download is necessary - Placeholders come with the plugin
+:::
 
 ### Placeholders
 
